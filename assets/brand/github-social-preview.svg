@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
   <title id="title">Snocomm Sentinel social preview</title>
   <desc id="desc">GitHub preview for Snocomm Sentinel, a defensive corporate privacy toolkit.</desc>
-  <rect width="1280" height="640" fill="#111417"/>
-  <rect x="64" y="64" width="1152" height="512" rx="24" fill="#F5F1E8"/>
-  <rect x="88" y="88" width="1104" height="464" rx="18" fill="#171B1F"/>
-  <path d="M250 164 370 216v86c0 82-48 139-120 169-72-30-120-87-120-169v-86l120-52Z" fill="#F5F1E8"/>
-  <path d="M250 193 342 234v71c0 61-34 106-92 132-58-26-92-71-92-132v-71l92-41Z" fill="#1F6F68"/>
-  <path d="M250 224 309 343H191l59-119Z" fill="#F5F1E8"/>
-  <path d="M250 263 279 322h-58l29-59Z" fill="#D9A441"/>
-  <circle cx="250" cy="367" r="11" fill="#111417"/>
-  <path d="M190 397h120" stroke="#F5F1E8" stroke-width="12" stroke-linecap="round"/>
-  <text x="430" y="246" fill="#F5F1E8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="70" font-weight="700">Snocomm Sentinel</text>
-  <text x="434" y="306" fill="#D9A441" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="600" letter-spacing="3">DEFENSIVE PRIVACY TOOLKIT</text>
-  <text x="434" y="366" fill="#DDE5E2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29">Privacidad corporativa, hardening y</text>
-  <text x="434" y="406" fill="#DDE5E2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29">preparación frente a spyware mercenario,</text>
-  <text x="434" y="446" fill="#DDE5E2" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29">con evidencia y consentimiento.</text>
+  <rect width="1280" height="640" fill="#485199"/>
+  <rect x="64" y="64" width="1152" height="512" rx="24" fill="#FFFFB8"/>
+  <rect x="88" y="88" width="1104" height="464" rx="18" fill="#63627C"/>
+  <path d="M250 164 370 216v86c0 82-48 139-120 169-72-30-120-87-120-169v-86l120-52Z" fill="#FFFFB8"/>
+  <path d="M250 193 342 234v71c0 61-34 106-92 132-58-26-92-71-92-132v-71l92-41Z" fill="#5A64BF"/>
+  <path d="M250 224 309 343H191l59-119Z" fill="#FFFFFF"/>
+  <path d="M250 263 279 322h-58l29-59Z" fill="#F3DD88"/>
+  <circle cx="250" cy="367" r="11" fill="#63627C"/>
+  <path d="M190 397h120" stroke="#FFFFB8" stroke-width="12" stroke-linecap="round"/>
+  <text x="430" y="246" fill="#FFFFFF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="70" font-weight="700">Snocomm Sentinel</text>
+  <text x="434" y="306" fill="#FFFF99" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="600" letter-spacing="3">DEFENSIVE PRIVACY TOOLKIT</text>
+  <text x="434" y="366" fill="#EAEEF4" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29">Privacidad corporativa, hardening y</text>
+  <text x="434" y="406" fill="#EAEEF4" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29">preparación frente a spyware mercenario,</text>
+  <text x="434" y="446" fill="#EAEEF4" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29">con evidencia y consentimiento.</text>
 </svg>

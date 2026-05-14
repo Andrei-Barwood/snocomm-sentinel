@@ -1,12 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
   <title id="title">Snocomm Sentinel mark</title>
   <desc id="desc">A sober geometric shield formed by aligned triangles and a central sentinel point.</desc>
-  <rect width="320" height="320" rx="32" fill="#111417"/>
-  <path d="M160 36 256 78v70c0 66-38 112-96 136-58-24-96-70-96-136V78l96-42Z" fill="#F5F1E8"/>
-  <path d="M160 58 236 92v58c0 51-28 88-76 110-48-22-76-59-76-110V92l76-34Z" fill="#1F6F68"/>
-  <path d="M160 84 210 184H110L160 84Z" fill="#F5F1E8"/>
-  <path d="M160 116 185 166h-50l25-50Z" fill="#D9A441"/>
-  <circle cx="160" cy="190" r="9" fill="#111417"/>
-  <path d="M110 214h100" stroke="#F5F1E8" stroke-width="10" stroke-linecap="round"/>
+  <rect width="320" height="320" rx="32" fill="#485199"/>
+  <path d="M160 36 256 78v70c0 66-38 112-96 136-58-24-96-70-96-136V78l96-42Z" fill="#FFFFB8"/>
+  <path d="M160 58 236 92v58c0 51-28 88-76 110-48-22-76-59-76-110V92l76-34Z" fill="#5A64BF"/>
+  <path d="M160 84 210 184H110L160 84Z" fill="#FFFFFF"/>
+  <path d="M160 116 185 166h-50l25-50Z" fill="#F3DD88"/>
+  <circle cx="160" cy="190" r="9" fill="#63627C"/>
+  <path d="M110 214h100" stroke="#FFFFB8" stroke-width="10" stroke-linecap="round"/>
 </svg>
-

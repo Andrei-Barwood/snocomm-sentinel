@@ -14,11 +14,22 @@ La marca usa una composición geométrica simple: escudo, triángulos alineados 
 
 ## Paleta
 
-- Grafito profundo: `#111417`
-- Marfil técnico: `#F5F1E8`
-- Verde señal: `#1F6F68`
-- Ámbar evidencia: `#D9A441`
-- Gris lectura: `#DDE5E2`
+- Amarillo claro: `#FFFFB8`
+- Amarillo señal: `#FFFF99`
+- Arena evidencia: `#F3DD88`
+- Lavanda clara: `#DEDDFA`
+- Lavanda media: `#C2C0E3`
+- Violeta suave: `#A6A4D7`
+- Gris violeta: `#63627C`
+- Azul profundo: `#485199`
+- Azul señal: `#5A64BF`
+- Azul niebla: `#C3CEDE`
+- Blanco: `#FFFFFF`
+- Azul grisáceo: `#BCC5D9`
+- Gris lectura: `#EAEEF4`
+- Azul soporte: `#99ABC7`
+- Azul documental: `#ADBAD1`
+- Azul corporativo claro: `#A7B7CF`
 
 ## Uso recomendado
 
