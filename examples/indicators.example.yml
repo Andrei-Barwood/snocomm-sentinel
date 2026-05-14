@@ -1,0 +1,35 @@
+indicators:
+  - name: nebrix_pegasus_directory_name
+    type: local_path_name
+    patterns:
+      - "nebrix"
+      - "nebrix-pegasus"
+      - "pegasus-shell"
+      - "pegasus.py"
+    severity: high
+    recommendation: >
+      No ejecutar el contenido. Revisar origen, propósito y autorización.
+      Retirar repositorios ofensivos de equipos institucionales mediante un proceso documentado.
+
+  - name: public_pegasus_repository_name
+    type: repository_name
+    patterns:
+      - "pegasus-master"
+      - "pegasus-main"
+      - "public-pegasus"
+    severity: medium
+    recommendation: >
+      Confirmar si corresponde a una herramienta pública de terceros y no confundirla
+      con Pegasus de NSO Group. Documentar el hallazgo con lenguaje no concluyente.
+
+  - name: suspicious_launch_item_name
+    type: local_file_name
+    patterns:
+      - "pegasus"
+      - "nebrix"
+      - "unknown-remote-shell"
+    severity: high
+    recommendation: >
+      No borrar automáticamente. Preservar evidencia, revisar firma, origen, permisos
+      y necesidad operativa con el equipo de seguridad.
+

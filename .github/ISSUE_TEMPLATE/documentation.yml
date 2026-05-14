@@ -1,0 +1,20 @@
+name: Mejora de documentación
+description: Proponga una corrección o mejora editorial/técnica.
+title: "[Docs]: "
+labels: ["documentation", "triage"]
+body:
+  - type: textarea
+    id: section
+    attributes:
+      label: Documento o sección
+      description: Indique el archivo, sección o tema.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Propuesta
+      description: Explique el cambio sugerido y por qué mejora claridad, precisión o seguridad.
+    validations:
+      required: true
+

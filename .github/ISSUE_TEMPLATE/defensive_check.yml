@@ -1,0 +1,27 @@
+name: Propuesta de comprobación defensiva
+description: Sugiera una comprobación local no invasiva.
+title: "[Check]: "
+labels: ["enhancement", "defensive-check", "triage"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objetivo defensivo
+      description: ¿Qué exposición o mala configuración ayudaría a revisar?
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Datos requeridos
+      description: Indique qué datos locales se leerían y cómo se minimizaría información sensible.
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Seguridad y consentimiento
+      description: Confirme que la comprobación es local, autorizada, de solo lectura y sin red.
+    validations:
+      required: true
+

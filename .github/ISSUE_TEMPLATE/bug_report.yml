@@ -1,0 +1,50 @@
+name: Reporte de error
+description: Informe un comportamiento inesperado de Snocomm Sentinel.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Resumen
+      description: Describa el problema sin incluir datos sensibles.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Plataforma
+      options:
+        - macOS
+        - Linux
+        - iOS/iPadOS backup
+        - Otra
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos de reproducción
+      description: Use datos ficticios o redactados.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado observado
+    validations:
+      required: true
+

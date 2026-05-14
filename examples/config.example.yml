@@ -1,0 +1,30 @@
+profiles:
+  default:
+    check_macos_services: true
+    check_profiles: true
+    check_mdm: true
+    check_fingerprint: true
+    include_shell_history: false
+    mvt_import_path: null
+    report_format: json
+
+  corporate:
+    check_macos_services: true
+    check_profiles: true
+    check_mdm: true
+    check_fingerprint: true
+    include_shell_history: false
+    mvt_import_path: null
+    report_format: md
+    recommend_lockdown_mode: case-by-case
+
+  high-risk:
+    check_macos_services: true
+    check_profiles: true
+    check_mdm: true
+    check_fingerprint: true
+    include_shell_history: false
+    mvt_import_path: null
+    report_format: md
+    recommend_lockdown_mode: true
+

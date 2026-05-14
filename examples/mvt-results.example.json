@@ -1,0 +1,16 @@
+{
+  "results": [
+    {
+      "indicator": "example-domain.invalid",
+      "type": "domain",
+      "matched": true,
+      "description": "Indicador ficticio para validar el flujo de importación."
+    },
+    {
+      "indicator": "clean-example.invalid",
+      "type": "domain",
+      "matched": false,
+      "description": "Registro ficticio sin coincidencia."
+    }
+  ]
+}

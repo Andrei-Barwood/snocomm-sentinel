@@ -1,0 +1,60 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "snocomm-sentinel"
+version = "0.1.0"
+description = "Toolkit defensivo para privacidad corporativa, exposición del sistema y preparación frente a spyware mercenario."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Snocomm" }
+]
+keywords = [
+  "defensive-security",
+  "privacy",
+  "macos",
+  "mvt",
+  "hardening",
+  "fingerprinting"
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Information Technology",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Security",
+  "Topic :: System :: Systems Administration"
+]
+dependencies = [
+  "typer>=0.12.0,<1.0.0",
+  "PyYAML>=6.0.0,<7.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0,<9.0.0",
+  "ruff>=0.6.0,<1.0.0"
+]
+
+[project.scripts]
+snocomm-sentinel = "snocomm_sentinel.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/snocomm_sentinel"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
