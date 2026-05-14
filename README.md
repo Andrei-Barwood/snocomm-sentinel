@@ -1,6 +1,8 @@
 # Snocomm Sentinel
 
-![Snocomm Sentinel](assets/brand/github-social-preview.svg)
+<p align="center">
+  <img src="assets/brand/readme-preview.png" alt="Snocomm Sentinel" width="860">
+</p>
 
 Privacidad corporativa, preparación frente a spyware mercenario y auditoría de exposición del sistema.
 

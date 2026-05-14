@@ -6,6 +6,7 @@ Esta carpeta contiene assets sobrios para presentar el proyecto en GitHub, docum
 
 - `snocomm-sentinel-mark.svg`: marca cuadrada para README, avatar secundario o documentación.
 - `github-social-preview.svg`: pieza horizontal para usar como social preview o encabezado visual del repositorio.
+- `readme-preview.png`: versión rasterizada y de tamaño controlado para evitar diferencias de renderizado SVG dentro del README de GitHub.
 
 ## Criterio visual
 
